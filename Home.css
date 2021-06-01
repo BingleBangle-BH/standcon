@@ -69,32 +69,35 @@
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 317px;
+    min-height: 738px;
   }
 
   .u-section-1 .u-image-1 {
-    width: 720px;
-    height: 316px;
+    width: 1725px;
+    height: 757px;
+    margin-top: -19px;
+    margin-left: -340px;
   }
 
   .u-section-1 .u-group-1 {
-    margin-top: -32px;
+    margin-top: -616px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 238px;
+    min-height: 218px;
   }
 
   .u-section-1 .u-image-1 {
     width: 540px;
     height: 237px;
+    margin-left: 0;
   }
 
   .u-section-1 .u-group-1 {
     width: 540px;
-    margin-top: 47px;
+    margin-top: -96px;
     margin-left: 0;
   }
 
@@ -121,26 +124,45 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 687px;
+    min-height: 600px;
   }
 
   .u-section-1 .u-image-1 {
-    width: 340px;
-    height: 149px;
+    width: 1368px;
+    left: -562px;
+    right: auto;
+    height: auto;
+    margin: initial;
   }
 
   .u-section-1 .u-group-1 {
     width: 340px;
+    margin-top: 38px;
+    margin-bottom: 0;
   }
 
   .u-section-1 .u-text-1 {
     font-size: 2.25rem;
-    margin-left: 0;
+    width: auto;
+    margin-top: 146px;
+    margin-right: -57px;
+    margin-left: 129px;
   }
 
   .u-section-1 .u-image-2 {
-    width: 340px;
-    height: 127px;
+    height: 115px;
+    width: 309px;
+    margin-top: -70px;
+    margin-left: 7px;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: auto;
+    margin-top: 26px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 13px;
   }
 }.u-section-2 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("images/dsdddd.jpg");
@@ -735,7 +757,6 @@
   }
 
   .u-section-4 .u-text-1 {
-    position: relative;
     margin-left: 9px;
     margin-right: 9px;
   }
@@ -1475,6 +1496,19 @@
 @media (max-width: 575px) {
   .u-section-7 .u-sheet-1 {
     min-height: 288px;
+  }
+
+  .u-section-7 .u-layout-cell-1 {
+    min-height: 408px;
+  }
+
+  .u-section-7 .u-image-1 {
+    margin-top: 20px;
+    margin-right: 0;
+  }
+
+  .u-section-7 .u-btn-1 {
+    margin-right: 0;
   }
 
   .u-section-7 .u-layout-cell-2 {
