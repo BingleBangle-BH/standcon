@@ -638,7 +638,6 @@
 .u-section-4 .u-group-1 {
   width: 879px;
   min-height: 398px;
-  height: auto;
   margin: -429px auto 35px;
 }
 
@@ -676,10 +675,6 @@
 }
 
 @media (max-width: 1199px) {
-  .u-section-4 .u-group-1 {
-    height: auto;
-  }
-
   .u-section-4 .u-text-1 {
     position: relative;
   }
