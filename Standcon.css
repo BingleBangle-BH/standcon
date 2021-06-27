@@ -112,7 +112,7 @@
   }
 }.u-section-2 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("images/4407.jpg");
-  background-position: 50.69% 0%;
+  background-position: 28.48% 0%;
   background-size: auto 140%;
 }
 
@@ -383,7 +383,7 @@
   }
 }.u-section-3 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("images/4407.jpg");
-  background-position: 0% 44.63%;
+  background-position: 0% 0%;
   background-size: auto 175%;
 }
 
@@ -579,7 +579,8 @@
   }
 }.u-section-4 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("images/4407.jpg");
-  background-position: 0% 44.63%;
+  background-position: 19.85% 0%;
+  background-size: auto 145%;
 }
 
 .u-section-4 .u-sheet-1 {
@@ -800,7 +801,8 @@
   }
 }.u-section-5 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("images/4407.jpg");
-  background-position: 0% 44.63%;
+  background-position: 98.75% 0%;
+  background-size: auto 145%;
 }
 
 .u-section-5 .u-sheet-1 {
