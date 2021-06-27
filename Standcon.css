@@ -1,17 +1,17 @@
 .u-section-1 {
   background-image: url("images/3d-space-scene.jpg");
   background-position: 56.61% 100%;
-  background-size: 135%;
+  background-size: auto 135%;
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 863px;
+  min-height: 929px;
 }
 
 .u-section-1 .u-group-1 {
   width: 1089px;
   min-height: 722px;
-  margin: 122px auto 19px;
+  margin: 122px auto 0;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -41,9 +41,18 @@
   padding: 8px 33px;
 }
 
+.u-section-1 .u-btn-2 {
+  border-style: none;
+  font-weight: 700;
+  font-size: 1.25rem;
+  background-image: none;
+  margin: -7px auto 44px;
+  padding: 8px 33px;
+}
+
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 712px;
+    min-height: 766px;
   }
 
   .u-section-1 .u-group-1 {
@@ -57,7 +66,7 @@
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 545px;
+    min-height: 587px;
   }
 
   .u-section-1 .u-group-1 {
@@ -67,7 +76,7 @@
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 409px;
+    min-height: 440px;
   }
 
   .u-section-1 .u-group-1 {
@@ -81,18 +90,11 @@
 }
 
 @media (max-width: 575px) {
-  .u-section-1 {
-    background-size: auto 135%;
-  }
-
   .u-section-1 .u-sheet-1 {
-    min-height: 648px;
+    min-height: 277px;
   }
 
   .u-section-1 .u-group-1 {
-    min-height: 530px;
-    margin-top: 118px;
-    margin-bottom: 0;
     margin-right: initial;
     margin-left: initial;
     width: auto;
@@ -124,16 +126,7 @@
   font-size: 3rem;
   font-weight: 700;
   width: 734px;
-  margin: 63px auto 0;
-}
-
-.u-section-2 .u-btn-1 {
-  border-style: none;
-  font-weight: 700;
-  font-size: 1.25rem;
-  background-image: none;
-  margin: 13px auto 0;
-  padding: 8px 33px;
+  margin: 101px auto 0;
 }
 
 .u-section-2 .u-text-2 {
@@ -142,8 +135,8 @@
   text-transform: none;
   font-family: Poppins;
   font-weight: 700;
-  font-size: 2.25rem;
-  margin: 76px 0 0 313px;
+  font-size: 1.875rem;
+  margin: 99px 0 0 313px;
 }
 
 .u-section-2 .u-image-1 {
@@ -151,7 +144,7 @@
   height: 264px;
   background-image: url("images/StevenWong.jpg");
   background-position: 50% 50%;
-  margin: -63px auto 0 20px;
+  margin: -57px auto 0 20px;
 }
 
 .u-section-2 .u-text-3 {
@@ -171,7 +164,7 @@
   font-weight: normal;
   font-size: 1.125rem;
   font-style: italic;
-  margin: -182px 0 0 313px;
+  margin: -157px 0 0 313px;
 }
 
 .u-section-2 .u-image-2 {
@@ -188,8 +181,8 @@
   text-transform: none;
   font-family: Poppins;
   font-weight: 700;
-  font-size: 2.25rem;
-  margin: -235px 304px 0 9px;
+  font-size: 1.875rem;
+  margin: -249px 297px 0 16px;
 }
 
 .u-section-2 .u-text-6 {
@@ -197,7 +190,7 @@
   letter-spacing: 2px;
   font-size: 0.875rem;
   line-height: 1.8;
-  margin: 66px 297px 0 36px;
+  margin: 53px 297px 0 36px;
 }
 
 .u-section-2 .u-text-7 {
@@ -208,7 +201,7 @@
   font-weight: normal;
   font-size: 1.125rem;
   font-style: italic;
-  margin: -157px 313px 60px 0;
+  margin: -212px 313px 60px 0;
 }
 
 @media (max-width: 1199px) {
@@ -220,13 +213,8 @@
     min-height: 754px;
   }
 
-  .u-section-2 .u-btn-1 {
-    margin-top: 262px;
-  }
-
   .u-section-2 .u-text-2 {
-    margin-top: -193px;
-    margin-left: 213px;
+    margin-left: 113px;
   }
 
   .u-section-2 .u-text-3 {
@@ -244,8 +232,8 @@
   }
 
   .u-section-2 .u-text-6 {
-    margin-right: 133px;
-    margin-left: 0;
+    margin-right: 113px;
+    margin-left: 20px;
   }
 
   .u-section-2 .u-text-7 {
@@ -262,13 +250,8 @@
     width: 720px;
   }
 
-  .u-section-2 .u-btn-1 {
-    margin-top: 229px;
-  }
-
   .u-section-2 .u-text-2 {
     font-size: 1.5rem;
-    margin-top: -160px;
     margin-left: 0;
   }
 
@@ -289,6 +272,7 @@
   .u-section-2 .u-text-6 {
     font-size: 0.75rem;
     margin-right: 0;
+    margin-left: 0;
   }
 
   .u-section-2 .u-text-7 {
@@ -305,13 +289,8 @@
     width: 540px;
   }
 
-  .u-section-2 .u-btn-1 {
-    margin-top: 311px;
-  }
-
   .u-section-2 .u-text-2 {
     font-size: 1.875rem;
-    margin-top: -242px;
   }
 }
 
@@ -322,64 +301,31 @@
 
   .u-section-2 .u-text-1 {
     font-size: 1.5rem;
-    width: auto;
-    margin-top: 57px;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .u-section-2 .u-btn-1 {
-    margin-top: 418px;
+    width: 340px;
   }
 
   .u-section-2 .u-text-2 {
     font-size: 1rem;
-    width: auto;
-    margin-top: -277px;
-  }
-
-  .u-section-2 .u-image-1 {
-    width: 150px;
-    height: 150px;
-    margin-top: -187px;
-    margin-left: auto;
   }
 
   .u-section-2 .u-text-3 {
     font-size: 0.625rem;
-    width: auto;
-    margin-top: 85px;
   }
 
   .u-section-2 .u-text-4 {
     font-size: 1rem;
-    width: auto;
-    margin-top: -198px;
-  }
-
-  .u-section-2 .u-image-2 {
-    width: 150px;
-    height: 150px;
-    margin-top: 222px;
-    margin-right: auto;
   }
 
   .u-section-2 .u-text-5 {
     font-size: 1rem;
-    width: auto;
-    margin-top: 19px;
   }
 
   .u-section-2 .u-text-6 {
     font-size: 0.625rem;
-    width: auto;
-    margin-top: 48px;
   }
 
   .u-section-2 .u-text-7 {
     font-size: 1rem;
-    width: auto;
-    margin-top: -180px;
   }
 }.u-section-3 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("images/4407.jpg");
@@ -397,7 +343,7 @@
   text-transform: none;
   font-family: Poppins;
   font-weight: 700;
-  font-size: 2.25rem;
+  font-size: 1.875rem;
   margin: 152px 0 0 313px;
 }
 
@@ -406,7 +352,7 @@
   height: 264px;
   background-image: url("images/Edwinder_Bio_Photo.jpg");
   background-position: 50% 50%;
-  margin: -67px auto 0 20px;
+  margin: -61px auto 0 20px;
 }
 
 .u-section-3 .u-text-2 {
@@ -443,7 +389,7 @@
   text-transform: none;
   font-family: Poppins;
   font-weight: 700;
-  font-size: 2.25rem;
+  font-size: 1.875rem;
   margin: -231px 304px 0 9px;
 }
 
@@ -463,7 +409,7 @@
   font-weight: normal;
   font-size: 1.125rem;
   font-style: italic;
-  margin: -155px 304px 60px 9px;
+  margin: -149px 304px 60px 9px;
 }
 
 @media (max-width: 1199px) {
@@ -593,7 +539,7 @@
   text-transform: none;
   font-family: Poppins;
   font-weight: 700;
-  font-size: 2.25rem;
+  font-size: 1.875rem;
   margin: 152px 0 0 313px;
 }
 
@@ -602,7 +548,7 @@
   height: 264px;
   background-image: url("images/AndrewOng.jpg");
   background-position: 50% 50%;
-  margin: -67px auto 0 20px;
+  margin: -61px auto 0 20px;
 }
 
 .u-section-4 .u-text-2 {
@@ -639,7 +585,7 @@
   text-transform: none;
   font-family: Poppins;
   font-weight: 700;
-  font-size: 2.25rem;
+  font-size: 1.875rem;
   margin: -231px 304px 0 9px;
 }
 
@@ -659,7 +605,7 @@
   font-weight: normal;
   font-size: 1.125rem;
   font-style: italic;
-  margin: -205px 304px 60px 9px;
+  margin: -199px 304px 60px 9px;
 }
 
 @media (max-width: 1199px) {
@@ -815,8 +761,8 @@
   text-transform: none;
   font-family: Poppins;
   font-weight: 700;
-  font-size: 2.25rem;
-  margin: 152px 0 0 313px;
+  font-size: 1.875rem;
+  margin: 135px 0 0 313px;
 }
 
 .u-section-5 .u-image-1 {
@@ -824,7 +770,7 @@
   height: 264px;
   background-image: url("images/Peisi.jpg");
   background-position: 50% 50%;
-  margin: -67px auto 0 20px;
+  margin: -77px auto 0 20px;
 }
 
 .u-section-5 .u-text-2 {
@@ -844,7 +790,7 @@
   font-weight: normal;
   font-size: 1.125rem;
   font-style: italic;
-  margin: -156px 0 0 313px;
+  margin: -145px 0 0 313px;
 }
 
 .u-section-5 .u-image-2 {
@@ -852,7 +798,7 @@
   height: 264px;
   background-image: url("images/Glenice-squareprofile.jpg");
   background-position: 50% 50%;
-  margin: 250px 20px 0 auto;
+  margin: 239px 20px 0 auto;
 }
 
 .u-section-5 .u-text-4 {
@@ -861,8 +807,8 @@
   text-transform: none;
   font-family: Poppins;
   font-weight: 700;
-  font-size: 2.25rem;
-  margin: -231px 304px 0 9px;
+  font-size: 1.875rem;
+  margin: -231px 313px 0 0;
 }
 
 .u-section-5 .u-text-5 {
@@ -881,7 +827,7 @@
   font-weight: normal;
   font-size: 1.125rem;
   font-style: italic;
-  margin: -205px 304px 60px 9px;
+  margin: -224px 304px 60px 9px;
 }
 
 @media (max-width: 1199px) {
@@ -908,16 +854,15 @@
 
   .u-section-5 .u-text-4 {
     margin-right: 113px;
-    margin-left: 0;
   }
 
   .u-section-5 .u-text-5 {
-    margin-right: 113px;
-    margin-left: 20px;
+    margin-right: 133px;
+    margin-left: 0;
   }
 
   .u-section-5 .u-text-6 {
-    margin-right: 113px;
+    margin-right: 133px;
     margin-left: 0;
   }
 }
@@ -949,7 +894,6 @@
   .u-section-5 .u-text-5 {
     font-size: 0.75rem;
     margin-right: 0;
-    margin-left: 0;
   }
 
   .u-section-5 .u-text-6 {
@@ -1640,10 +1584,10 @@
 
 .u-section-9 .u-social-icons-1 {
   white-space: nowrap;
-  height: 80px;
+  height: 68px;
   min-height: 16px;
-  width: 170px;
-  min-width: 42px;
+  width: 225px;
+  min-width: 68px;
   margin: 8px auto 0 36px;
 }
 
@@ -1655,6 +1599,11 @@
 .u-section-9 .u-icon-2 {
   height: 100%;
   color: rgb(219, 83, 75) !important;
+}
+
+.u-section-9 .u-icon-3 {
+  height: 100%;
+  color: rgb(0, 122, 185) !important;
 }
 
 .u-section-9 .u-layout-cell-2 {
