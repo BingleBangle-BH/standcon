@@ -124,7 +124,16 @@
   font-size: 3rem;
   font-weight: 700;
   width: 734px;
-  margin: 83px auto 0;
+  margin: 63px auto 0;
+}
+
+.u-section-2 .u-btn-1 {
+  border-style: none;
+  font-weight: 700;
+  font-size: 1.25rem;
+  background-image: none;
+  margin: 13px auto 0;
+  padding: 8px 33px;
 }
 
 .u-section-2 .u-text-2 {
@@ -134,15 +143,15 @@
   font-family: Poppins;
   font-weight: 700;
   font-size: 2.25rem;
-  margin: 117px 0 0 313px;
+  margin: 76px 0 0 313px;
 }
 
 .u-section-2 .u-image-1 {
   width: 264px;
   height: 264px;
-  background-image: url("images/Alina.JPG");
+  background-image: url("images/StevenWong.jpg");
   background-position: 50% 50%;
-  margin: -62px auto 0 20px;
+  margin: -63px auto 0 20px;
 }
 
 .u-section-2 .u-text-3 {
@@ -151,7 +160,7 @@
   font-size: 0.875rem;
   line-height: 1.8;
   animation-duration: 1000ms;
-  margin: -135px 20px 0 313px;
+  margin: -134px 20px 0 313px;
 }
 
 .u-section-2 .u-text-4 {
@@ -168,7 +177,7 @@
 .u-section-2 .u-image-2 {
   width: 264px;
   height: 264px;
-  background-image: url("images/Alina.JPG");
+  background-image: url("images/TJ.png");
   background-position: 50% 50%;
   margin: 254px 20px 0 auto;
 }
@@ -211,7 +220,12 @@
     min-height: 754px;
   }
 
+  .u-section-2 .u-btn-1 {
+    margin-top: 262px;
+  }
+
   .u-section-2 .u-text-2 {
+    margin-top: -193px;
     margin-left: 213px;
   }
 
@@ -248,8 +262,13 @@
     width: 720px;
   }
 
+  .u-section-2 .u-btn-1 {
+    margin-top: 229px;
+  }
+
   .u-section-2 .u-text-2 {
     font-size: 1.5rem;
+    margin-top: -160px;
     margin-left: 0;
   }
 
@@ -286,14 +305,19 @@
     width: 540px;
   }
 
+  .u-section-2 .u-btn-1 {
+    margin-top: 311px;
+  }
+
   .u-section-2 .u-text-2 {
     font-size: 1.875rem;
+    margin-top: -242px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 961px;
+    min-height: 273px;
   }
 
   .u-section-2 .u-text-1 {
@@ -304,10 +328,14 @@
     margin-right: 0;
   }
 
+  .u-section-2 .u-btn-1 {
+    margin-top: 418px;
+  }
+
   .u-section-2 .u-text-2 {
     font-size: 1rem;
     width: auto;
-    margin-top: 189px;
+    margin-top: -277px;
   }
 
   .u-section-2 .u-image-1 {
@@ -356,6 +384,7 @@
 }.u-section-3 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("images/4407.jpg");
   background-position: 0% 44.63%;
+  background-size: auto 175%;
 }
 
 .u-section-3 .u-sheet-1 {
@@ -375,7 +404,7 @@
 .u-section-3 .u-image-1 {
   width: 264px;
   height: 264px;
-  background-image: url("images/Alina.JPG");
+  background-image: url("images/Edwinder_Bio_Photo.jpg");
   background-position: 50% 50%;
   margin: -67px auto 0 20px;
 }
@@ -527,52 +556,26 @@
 
   .u-section-3 .u-text-1 {
     font-size: 1rem;
-    width: auto;
-    margin-top: 224px;
-  }
-
-  .u-section-3 .u-image-1 {
-    width: 150px;
-    height: 150px;
-    margin-top: -188px;
-    margin-left: auto;
   }
 
   .u-section-3 .u-text-2 {
     font-size: 0.625rem;
-    width: auto;
-    margin-top: 85px;
   }
 
   .u-section-3 .u-text-3 {
     font-size: 1rem;
-    width: auto;
-    margin-top: -180px;
-  }
-
-  .u-section-3 .u-image-2 {
-    width: 150px;
-    height: 150px;
-    margin-top: 206px;
-    margin-right: auto;
   }
 
   .u-section-3 .u-text-4 {
     font-size: 1rem;
-    width: auto;
-    margin-top: 20px;
   }
 
   .u-section-3 .u-text-5 {
     font-size: 0.625rem;
-    width: auto;
-    margin-top: 47px;
   }
 
   .u-section-3 .u-text-6 {
     font-size: 1rem;
-    width: auto;
-    margin-top: -162px;
   }
 }.u-section-4 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("images/4407.jpg");
@@ -596,7 +599,7 @@
 .u-section-4 .u-image-1 {
   width: 264px;
   height: 264px;
-  background-image: url("images/Alina.JPG");
+  background-image: url("images/AndrewOng.jpg");
   background-position: 50% 50%;
   margin: -67px auto 0 20px;
 }
@@ -624,8 +627,8 @@
 .u-section-4 .u-image-2 {
   width: 264px;
   height: 264px;
-  background-image: url("images/Alina.JPG");
-  background-position: 50% 50%;
+  background-image: url("images/RaydenChia.JPG");
+  background-position: 50% 0%;
   margin: 250px 20px 0 auto;
 }
 
@@ -817,7 +820,7 @@
 .u-section-5 .u-image-1 {
   width: 264px;
   height: 264px;
-  background-image: url("images/Alina.JPG");
+  background-image: url("images/Peisi.jpg");
   background-position: 50% 50%;
   margin: -67px auto 0 20px;
 }
@@ -845,7 +848,7 @@
 .u-section-5 .u-image-2 {
   width: 264px;
   height: 264px;
-  background-image: url("images/Alina.JPG");
+  background-image: url("images/Glenice-squareprofile.jpg");
   background-position: 50% 50%;
   margin: 250px 20px 0 auto;
 }
@@ -1660,15 +1663,6 @@
   padding: 7px 45px 9px 43px;
 }
 
-.u-section-9 .u-btn-2 {
-  border-style: solid;
-  font-weight: 700;
-  font-size: 0.9375rem;
-  background-image: none;
-  margin: 34px auto 0 49px;
-  padding: 8px 18px;
-}
-
 .u-section-9 .u-layout-cell-2 {
   min-height: 536px;
 }
@@ -1690,10 +1684,6 @@
   .u-section-9 .u-btn-1 {
     margin-top: 20px;
     margin-left: 30px;
-  }
-
-  .u-section-9 .u-btn-2 {
-    margin-left: 0;
   }
 
   .u-section-9 .u-layout-cell-2 {
@@ -1725,10 +1715,6 @@
     margin-left: 0;
   }
 
-  .u-section-9 .u-btn-2 {
-    margin-top: 31px;
-  }
-
   .u-section-9 .u-layout-cell-2 {
     min-height: 339px;
   }
@@ -1745,10 +1731,6 @@
 
   .u-section-9 .u-container-layout-1 {
     padding-left: 10px;
-  }
-
-  .u-section-9 .u-btn-2 {
-    margin-left: 30px;
   }
 
   .u-section-9 .u-layout-cell-2 {
@@ -1774,13 +1756,6 @@
     margin-top: -66px;
     margin-right: 42px;
     margin-left: auto;
-  }
-
-  .u-section-9 .u-btn-2 {
-    margin-top: 30px;
-    margin-left: 0;
-    padding-right: 72px;
-    padding-left: 70px;
   }
 
   .u-section-9 .u-layout-cell-2 {
