@@ -152,7 +152,7 @@
   font-family: Poppins;
   font-weight: 700;
   font-size: 1.875rem;
-  margin: 99px 0 0 313px;
+  margin: 102px 0 0 313px;
 }
 
 .u-section-2 .u-image-1 {
@@ -160,7 +160,7 @@
   height: 264px;
   background-image: url("images/StevenWong.jpg");
   background-position: 50% 50%;
-  margin: -57px auto 0 20px;
+  margin: -60px auto 0 20px;
 }
 
 .u-section-2 .u-text-3 {
@@ -764,13 +764,13 @@
 
 @media (max-width: 575px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 943px;
+    min-height: 1038px;
   }
 
   .u-section-4 .u-text-1 {
     font-size: 1rem;
     width: auto;
-    margin-top: 53px;
+    margin-top: 327px;
   }
 
   .u-section-4 .u-image-1 {
@@ -815,7 +815,6 @@
     font-size: 1rem;
     width: auto;
     margin-top: -232px;
-    margin-bottom: 95px;
   }
 }.u-section-5 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("images/4407.jpg");
@@ -870,7 +869,7 @@
   height: 264px;
   background-image: url("images/Glenice-squareprofile.jpg");
   background-position: 50% 50%;
-  margin: 239px 20px 0 auto;
+  margin: 272px 20px 0 auto;
 }
 
 .u-section-5 .u-text-4 {
@@ -880,7 +879,7 @@
   font-family: Poppins;
   font-weight: 700;
   font-size: 1.875rem;
-  margin: -231px 313px 0 0;
+  margin: -264px 313px 0 0;
 }
 
 .u-section-5 .u-text-5 {
@@ -1710,10 +1709,10 @@
   }
 
   .u-section-8 .u-layout-wrap-1 {
+    min-height: 686px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
-    min-height: auto;
   }
 
   .u-section-8 .u-layout-cell-1 {
